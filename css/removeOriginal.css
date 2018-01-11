@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+ul,ol,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,dl,dd,form{
+	margin: 0;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+a{
+	text-decoration: none;
+}
+input,textarea{
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+textarea{
+	resize: none;
+	overflow: hidden;
+}
+table{
+	border-collapse: collapse;
+}
+th,td{
+	padding: 0;
+}
+.clearFix:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.comW{
+	width: 1200px;
+	margin: 0 auto;
+}

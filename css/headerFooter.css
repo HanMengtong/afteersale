@@ -1,0 +1,176 @@
+/*头部样式*/
+.comW{
+	width: 1200px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 44px;
+	background: #000711;
+}
+.logo{
+	float: left;
+	width: 254px;
+	height: 40px;
+	background: url(../img/icon.png) no-repeat -10px -10px;
+	margin-top: 4px;
+}
+.btnFix{
+	float: right;
+}
+.btnR,
+.loginBtnR{
+	float: right;
+	height: 44px;
+}
+.loginBtnR{
+	display: none;
+}
+.btnFix a{
+	float: left;
+	font: 12px/20px "微软雅黑";
+	color: #bbbbbb;
+	padding: 0 20px;
+	margin: 12px 0;
+	border-left: 1px solid #444444;
+}
+.btnFix a:nth-of-type(1){
+	border-left: none;
+}
+.btnFix a:hover{
+	color: #fff;
+}
+.btnFix .btnR span{
+	margin: 0;
+	background-position: -82px -94px;
+}
+.btnFix .loginBtnR span{
+    width: 25px;
+    height: 20px;
+    background-position: -2px -197px;
+    margin: 0;
+}
+/*尾部样式*/
+footer{
+	width: 100%;
+	height: 178px;
+	border-top: 2px solid #79849c;
+	background: #091639;
+	padding-top: 50px;
+}
+.logoFooter{
+	float: left;
+    width: 194px;
+    height: 124px;
+	background: url(../img/icon.png) no-repeat -10px -223px;
+}
+.footerRight{
+	float: right;
+}
+.linkFix{
+	text-align: right;
+}
+.linkFix a{
+	font: 12px/1 "微软雅黑";
+	color: #79849c;
+	margin-right: 35px;
+}
+.linkFix a:nth-last-of-type(1){
+	margin-right: 0;
+}
+.linkFix a:hover{
+	color: #e2e1e1;
+	border-bottom: 1px solid #e2e1e1;
+}
+.footerRight ul{
+	margin-top: 30px;
+}
+.footerRight li{
+	text-align: right;
+	margin-bottom: 10px;
+}
+.footerRight li a,
+.footerRight li span{
+	font: 12px/1 "微软雅黑";
+	color: rgba(121,132,156,.5);
+	margin-right: 10px;
+}
+.footerRight li a:hover{
+	color: #fff;
+}
+/*侧边按钮*/
+.btnSide{
+	position: fixed;
+	bottom: 20px;
+	right: 0;
+}
+.btnFix1{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.hoverB{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: url(../img/homgpageIcon.png) no-repeat;
+}
+.phoneIndex{
+	background-position: -116px -120px;
+}
+.qqIndex{
+	background-position: -199px -120px;
+}
+.onlineIndex{
+	background-position: -33px -120px;
+}
+.toTopIndex{
+	background-position: -33px -203px;
+}
+.hoverA{
+    display: none;
+    font: 16px/26px "微软雅黑";
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    letter-spacing: 5px;
+    background: rgba(91,93,106,.7);
+    text-align: center;
+}
+.phoneS{
+	position: relative;
+	width: 80px;
+	height: 80px;
+}
+.phoneIndexH{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 220px;
+}
+@keyframes move{
+	from{
+		transform : translateX(220px);
+	}
+	to{
+		transform : translateX(0);
+	}
+}
+.phoneS:hover .phoneIndexH{
+	animation: move .5s linear;
+	opacity : 1;
+}
+.phoneIndexH span{
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding: 0 15px;
+	font: 16px/25px "微软雅黑";
+}
+.phoneIndexH p{
+	float: left;
+	font: 16px/50px arial;
+	letter-spacing: 1px;
+	margin: 0;
+}
+

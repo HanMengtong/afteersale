@@ -1,0 +1,157 @@
+body{
+	position: relative;
+}
+.txtNav{
+	height: 50px;
+	border-bottom: 1px solid #dddddd;
+}
+.txtNav span{
+	float: left;
+	font: 20px/50px "微软雅黑";
+	color: #333;
+}
+.txtNav div{
+	float: right;
+}
+.txtNav div a{
+	float: left;
+	font: 14px/50px "微软雅黑";
+	color: #666;
+	margin-left: 30px;
+}
+.txtNav div a:hover{
+	color: #000;
+}
+.txtCon h2{
+	width: 100%;
+	font: 40px/180px "微软雅黑";
+	color: #212932;
+	text-align: center;
+	border-bottom: 1px solid #dddddd;
+}
+.txtCon ul{
+	padding: 50px 150px;
+}
+.txtCon li{
+	margin-bottom: 50px;
+}
+.txtCon li h3{
+	font: bold 22px/62px "微软雅黑";
+	color: #333333;
+}
+.txtCon li p{
+	font: 16px/24px "微软雅黑";
+	color: #555555;
+	text-indent: 2em;
+}
+.adviceContent{
+	width: 820px;
+	padding: 70px 0;
+	margin: 0 auto;
+}
+.adviceContent input{
+	float: left;
+	width: 218px;
+	height: 44px;
+	border: 1px solid #dddddd;
+	background: #fbfbfb;
+	padding-left: 20px;
+	font: 14px/44px "微软雅黑";
+	margin-right: 50px;
+}
+.adviceContent .qqInput{
+	margin-right: 0;
+}
+.adviceContent textarea{
+	width: 780px;
+	height: 190px;
+	border: 1px solid #dddddd;
+	background: #fbfbfb;
+	margin: 40px 0;
+	padding: 20px;
+}
+.submit{
+	position: relative;
+	width: 136px;
+	height: 36px;
+	border-radius: 20px;
+	margin: 0 auto;
+	background: #246cbf;
+	cursor: pointer;
+}
+.submit span{
+	position: absolute;
+	top: -4px;
+	left: 0;
+	width: 136px;
+	height: 36px;
+	border-radius: 20px;
+	background: #2585f3;
+	font: 14px/36px "微软雅黑";
+	color: #fff;
+	text-align: center;
+}
+.submit:active{
+	transform: translateY(5px);
+}
+.adviceSuccBg,
+.adviceFailBg{
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(2,9,45,.4);
+}
+.adviceSuccess,
+.adviceFail{
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	width: 498px;
+	height: 315px;
+	border-radius: 6px;
+	background: #fdfdfd;
+	margin-left: -249px;
+}
+.adviceSuccess h4,
+.adviceFail h4{
+	height: 70px;
+	background: #f5f5f5;
+	font: bold 18px/70px "微软雅黑";
+	color: #2585f3;
+	text-align: center;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.adviceSuccess .btnCon,
+.adviceFail .btnCon{
+	width: 240px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.adviceSuccess .btnCon p,
+.adviceFail .btnCon p{
+	font: bold 16px/30px "微软雅黑";
+	color: #666666;
+	text-align: center;
+}
+.adviceSuccess .btnCon .submit,
+.adviceFail .btnCon .submit{
+	margin-top: 40px;
+}
+.adviceSuccess .closeBtn,
+.adviceFail .closeBtn{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 15px;
+	height: 15px;
+	background: url(../img/homgpageIcon.png) no-repeat -1px -98px;
+	cursor: pointer;
+}
+
+
+
+
